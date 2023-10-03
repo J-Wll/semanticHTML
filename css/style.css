@@ -1,0 +1,32 @@
+/* header nav .navlink{
+    text-align: center; 
+} */
+
+/* a{
+    color: #004cbd;
+} */
+
+.w-15{
+    min-width: 15%;
+    max-width: 120px;
+}
+
+
+#dark-mode-toggle{
+    display: inline;
+    background-image: url("../img/5261906.png");
+    background-size: contain;
+    background-color: transparent;
+    border: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.img-banner{
+    max-height: 600;
+    width: 100%;
+}
+
+.banner-block{
+    max-width: 49%;
+}
