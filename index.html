@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <!--jQuery-->
-    <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS v5.3.2 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- Bootstrap JavaScript Libraries -->
@@ -23,6 +23,7 @@
     <div class="container">
         <hr>    
         <header>
+            <!-- Collapsable bootstrap navbar with dropdowns, see: https://getbootstrap.com/docs/5.3/components/navbar/-->
             <nav class="navbar navbar-expand-sm">
                 <div class="container-fluid">
                 <a class="navbar-brand mr-sm-4">Joe Westwell</a>
@@ -65,8 +66,9 @@
 
         <main>
             <h1 class = "mb-4">Developer Portfolio</h1>
-            <!-- Banner image? -->
             <section class="introduction"><p class="my-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in molestie augue. Maecenas vitae fermentum lectus. Suspendisse ultricies ligula et metus efficitur, at finibus lorem tristique. Quisque accumsan vitae neque vitae varius. Sed id bibendum libero. Etiam non nunc vel libero tincidunt aliquam eu finibus urna. Sed pharetra iaculis placerat. Aenean aliquam vestibulum ante, ut ullamcorper velit venenatis vitae.</p></section>
+
+            <!-- Section of project banner images and captions, fitting either one or two per row depending on resolution -->
             <section class="project-banners container text-center my-3">
                 <section class="row-1 row">
                     <figure class="banner-block col my-3">
@@ -108,6 +110,7 @@
         <hr>       
         <footer class="container text-center">
 
+            <!-- Icons in a responsive centered format -->
         <section class="row">
             <a class="col" href="https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_customize&levels=aaa" ><img class="w-15 d-inline-block m-3 " src="./img/AA.png" alt="Image indicated WCAG AA guidelines"></img></a>
             <!-- <p class="d-inline-block mx-3 fs-4">Find me on:</p> -->
