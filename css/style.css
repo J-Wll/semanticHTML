@@ -13,6 +13,16 @@
 }
 
 
+a,
+p,
+.nav-link {
+    font-size: 18px;
+}
+
+.navbar-brand {
+    font-size: 22px;
+}
+
 #dark-mode-toggle {
     display: inline;
     background-image: url("../img/5261906.png");
@@ -23,7 +33,7 @@
     height: 40px;
 }
 
-.nav-link{
+.nav-link {
     /* width: min-content; */
     width: fit-content;
 }
@@ -31,7 +41,7 @@
 .img-banner {
     max-height: 600px;
     width: 100%;
-    min-width: 275px;
+    min-width: 250px;
 }
 
 /* .banner-block{
