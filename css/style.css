@@ -24,10 +24,11 @@
 }
 
 .img-banner{
-    max-height: 600;
+    max-height: 600px;
     width: 100%;
+    min-width: 250px;
 }
 
 .banner-block{
-    max-width: 49%;
+    /* max-width: 49%; */
 }
