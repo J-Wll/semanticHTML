@@ -15,7 +15,8 @@
 
 a,
 p,
-.nav-link {
+.nav-link, 
+li {
     font-size: 18px;
 }
 
