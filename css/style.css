@@ -8,6 +8,7 @@ a,p,.nav-link, li {
 
 .navbar-brand {
     font-size: 22px;
+    line-height: 45px;
 }
 
 .nav-link{
