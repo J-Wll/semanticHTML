@@ -1,5 +1,5 @@
 .w-15 {
-    max-height: 60px;
+    max-height: 70px;
 }
 
 a,p,.nav-link, li {
@@ -48,4 +48,8 @@ a,p,.nav-link, li {
 .img-banner {
     width: 100%;
     min-width: 250px;
+}
+
+.link-body-emphasis{
+    font-size: 20px;
 }
